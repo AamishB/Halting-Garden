@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Colors */
+  --bg-main: #0B0D10; /* Very deep slate, almost black */
+  --bg-panel: #13161A; /* Slightly lighter slate for panels */
+  --bg-surface: #1E2228; /* For hover states or active elements */
+  
+  --border-color: #272B33; /* Subtle border for bento boxes */
+  --border-radius: 12px;
+  --gutter: 16px;
+
+  /* Typography */
+  --text-primary: #F3F4F6;
+  --text-secondary: #9CA3AF;
+  --text-muted: #6B7280;
+
+  /* Accents */
+  --accent-emerald: #10B981;
+  --accent-emerald-hover: #059669;
+  --accent-amber: #F59E0B;
+  --accent-rose: #F43F5E;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  overflow: hidden; /* Prevent scrolling on the main window */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom scrollbar for dark mode */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-panel);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 5px;
+  border: 2px solid var(--bg-panel);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
