@@ -109,4 +109,4 @@ npm run test     # vitest
 
 ## Non-goals
 
-Sprout is intentionally small - no imports or heavy standard libraries. It's built to make a handful of specific, teachable failure modes (leaks, unbounded recursion, infinite loops, invalid frees, global abuse, array bounds) visually legible, not to be a general-purpose language. There's no multi-language input (an earlier JS/Python-to-Sprout transpiler was cut - see _Challenges_ in the project story) and no persistence or accounts; every session starts from a preset or a blank editor.
+Sprout is intentionally small - no imports or heavy standard libraries. It's built to make a handful of specific, teachable failure modes (leaks, unbounded recursion, infinite loops, invalid frees, global abuse, array bounds) visually legible, not to be a general-purpose language. There's no multi-language input except a simple Python transpiler and no persistence or accounts; every session starts from a preset or a blank editor.
