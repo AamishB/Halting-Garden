@@ -2,7 +2,7 @@
   <img src="src/assets/logo.png" width="128" alt="Halting Garden Logo" />
 </div>
 
-# Halting Garden
+# <a href="https://halting-garden.vercel.app/">Halting Garden</a>
 
 > It is a programming environment where your running code grows as a plant, and runtime bugs show up as visible disease.
 
